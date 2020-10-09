@@ -1,0 +1,73 @@
+.blue{
+    background-color:#EB1E2B;
+
+}
+nav {
+   background-color: black; /*colour scheme obtained from canva.com*/
+   padding: 20px;
+   text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    
+}
+
+a{
+    color: white;
+    text-decoration: teal;
+    margin: 20px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+.aboutme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #E5E8E8;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+#social{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.portfoliopage{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 41px;
+    background-color: lightskyblue;
+}
+
+.contactpage{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 41px;
+    background-color: lightskyblue;
+}
+
+/*.wrapquote{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.text {
+    background: radial-gradient(
+      ellipse at center,
+      rgba(0, 128, 172, 1) 0%,
+      rgba(0, 128, 172, 1) 70%, 
+      rgba(0, 128, 172, 0) 70.3% 
+    );
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: relative;
+    margin: 0;
+  
+  }
