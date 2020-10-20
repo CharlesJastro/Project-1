@@ -1,8 +1,6 @@
 .home{
-    /*background-color: blanchedalmond;*/
     margin: 0;
     padding: 0;
-
     background-image: url('images/IMG_20180609_141518.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,6 +13,7 @@
     position: relative;
     right: 650px;
     bottom: 10px;
+    border-radius: 50%;
 }
 nav {
    background-color: black; 
@@ -42,53 +41,77 @@ a{
 }
 
 .aboutme{
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family: 'Courier New', Courier, monospace;   
     text-align:center;
-   /* position: relative; */
     border-radius: 50%;
     height: 300px;
     width: 300px;
     background-color: white;
     margin-left: 80px;
 }
-
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-.text {
-    font-weight: bold;
-    color: black;
-    margin: 30px;
-    padding: 0.2px;
-    
- /*   position: absolute;
-    top: 15px;
-    left: 70px;
-   /* color: white;
-    background-color: black;
-    opacity: 20%;
-    padding-left: 20px;
-    padding-right: 20px; */
+    .text {
+      font-weight: bold;
+      color: black;
+      margin: 30px;
+      padding: 0.2px;
+    }
+   #mp{
+       font-size: 34px;
+       position: relative;
+       bottom: 20px;
+   }
+   #pb{
+       font-size: 13px;
+       position: relative;
+       bottom: 25px;
+   }
+  #myname{
+     font-size: 30px;
+     position: relative;
+     bottom: 30px;
   }
- #pw{
-     font-size: 40px;
- }
- #pb{
-     font-size: 15px;
- }
-#myname{
-   font-size: 30px;
-}   
+#title{
+  font-size: 10px;
+  line-height: 1.8;
+  position: relative;
+  bottom: 40px;
+}
+
+.socialMedia{
+ 
+}
+#socialMedia1{
+    width: 20px;
+    height: 20px;
+    margin: 80px;
+    padding-left: 500px;
+    position: relative;
+    top: 50px;
+} 
+#socialMedia2{
+  width: 20px;
+  height: 20px;
+  padding-left: 660px;
+  position: relative;
+  bottom: 59px;
+}
+#socialMedia3{
+  width: 20px;
+  height: 20px;
+  padding-left: 620px;
+  position: relative;
+  bottom: 87px; 
+}
+#socialMedia4{
+  width: 20px;
+  height: 20px;
+  padding-left: 700px;
+  position: relative;
+  bottom: 115px; 
+}
+   
 nav:hover {
     background-color: #119fb8;
-}
-
-#social{
-    width: 80px;
-    height: 80px;
 }
 
 .portfoliopage{
@@ -108,6 +131,7 @@ nav:hover {
   outline: none;
   font-size: 15px;
   font-weight: bold;
+  font-family: 'Dancing Script', cursive;
 }
 .active, .skills:hover {
     background-color: rgb(30, 185, 185);
@@ -118,6 +142,7 @@ nav:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-family: 'Sansita Swashed', cursive;
   }
   .skills:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -130,6 +155,41 @@ nav:hover {
     content: "\2796";  /* Unicode character for "minus" sign (-)*/ 
   }
 
+  .projects{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+   font-weight: bold;
+   font-family: 'Dancing Script', cursive;
+  }
+.active, .projects:hover {
+    background-color: rgb(30, 185, 185);
+}
+.projectstext {
+    padding: 0 15px;
+    background-color: #f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  .projects:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+  }
+  .minusSign:after {
+    content: "\2796";
+  }
   .interests{
     background-color: grey;
     color: black;
@@ -142,7 +202,8 @@ nav:hover {
     outline: none;
     font-size: 15px;
    font-weight: bold;
-}
+   font-family: 'Dancing Script', cursive;
+  }
 .active, .interests:hover {
     background-color: rgb(30, 185, 185);
 }
@@ -152,6 +213,7 @@ nav:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-family: 'Sansita Swashed', cursive;
   }
   .interests:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -164,18 +226,81 @@ nav:hover {
     content: "\2796";
   }
   
+#image1{
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    top: 90px; 
+}
+#image2{
+  height: 80px;
+  width: 80px;
+  margin-left: 1200px;
+  position: absolute;
+  top: 90px;
+}
+#image3{
+  height: 80px;
+  width: 80px;
+  margin-left: 330px;
+  position: absolute;
+  top: 90px;
+}
+#image4{
+  height: 80px;
+  width: 80px;
+  margin-left: 960px;
+  position: absolute;
+  top: 90px;
+}
 .resumepage{
     margin: 0;
     padding: 0;
 }
 .contactpage{
-    background-color: blanchedalmond;
+    background-color: lightblue;
     margin: 0;
     padding: 0;
     font-size: 20px;
 }
-
-input{
-    border: 50px;
+.contactPageText{
+    margin: 10px;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Dancing Script', cursive;
 }
 
+.uploadSubmit{
+    margin-left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn {                      /*Apart from position, code was generated from css3buttongenerator.com */
+  position: relative;
+  left: 65px;
+  top: 5px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
