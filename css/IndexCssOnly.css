@@ -17,9 +17,9 @@ h2 {
 .dates{
     text-align: right;
 }
-.dates#UniportOnly{
+/* .dates#UniportOnly{
      color: teal
-}
+} */
 
 #EmailOnly{
     background-image: url("emailgif.gif");

@@ -1,7 +1,7 @@
 .home{
     margin: 0;
     padding: 0;
-    background-image: url('/images/IMG_20180609_141518.jpg');
+    background-image: url('images/IMG_20180609_141518.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -78,14 +78,20 @@ a{
   position: relative;
   bottom: 40px;
 }
-
+.FSD{
+  font-size: larger;
+}
+.myProjectsLinks{
+  color: rgb(128, 112, 216);
+  text-decoration: underline;
+}
 #socialMedia1{
     width: 20px;
     height: 20px;
     margin: 80px;
     padding-left: 500px;
     position: relative;
-    top: 10px;
+    top: 9px;
 } 
 #socialMedia2{
   width: 20px;
@@ -99,7 +105,7 @@ a{
   height: 20px;
   padding-left: 620px;
   position: relative;
-  bottom: 97px; 
+  top: 113px; 
 }
 #socialMedia4{
   width: 20px;
