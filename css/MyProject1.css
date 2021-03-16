@@ -12,7 +12,7 @@
     height: 60px;
     position: relative;
     right: 45%;
-    bottom: 25%;
+    top: 145%;
     border-radius: 50%;
 
 }
@@ -23,6 +23,10 @@ nav {
    width: 100%;
    height: 40px;
    opacity: 80%;
+}
+
+nav:hover {
+  background-color: #084e5a;
 }
 
 li{
@@ -85,44 +89,12 @@ a{
   color: rgb(128, 112, 216);
   text-decoration: underline;
 }
-#socialMedia1{
-    width: 20px;
-    height: 20px;
-    margin: 80px;
-    padding-left: 500px;
-    position: relative;
-    top: 9px;
-} 
-#socialMedia2{
-  width: 20px;
-  height: 20px;
-  padding-left: 660px;
-  position: relative;
-  bottom: 59px;
-}
-#socialMedia3{
-  width: 20px;
-  height: 20px;
-  padding-left: 620px;
-  position: relative;
-  top: 113px; 
-}
-#socialMedia4{
-  width: 20px;
-  height: 20px;
-  padding-left: 700px;
-  position: relative;
-  bottom: 115px; 
-}
-   
-nav:hover {
-    background-color: #084e5a;
-}
 
+/* Portfolio page */
 .portfoliopage{
-    background-color: #f1f1f1;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    background-color: #f1f1f1; 
 }
 .dropdowns{
   background-attachment: fixed;
@@ -262,15 +234,33 @@ nav:hover {
   position: absolute;
   top: 90px;
 }
+
+/* Resume page */
 .resumepage{
     margin: 0;
     padding: 0;
+    /* background-color: seashell;  */
 }
+h1{ 
+  text-align: center;
+   /* color:tomato; */
+}
+h2 {
+  font-size: 20px;
+}
+.ContactDetails{
+  text-align: center; 
+}
+.dates{
+  text-align: right;
+}
+
+/* Contact page */
 .contactpage{
-    background-color: lightblue;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    background-color: lightblue;
+    /* font-size: 20px; */
 }
 .contactPageText{
     margin: 10px;
@@ -312,3 +302,71 @@ nav:hover {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+/* linkedin, github, etc. icons */
+#socialMedia1{
+  width: 20px;
+  height: 20px;
+  margin: 80px;
+  padding-left: 500px;
+  position: relative;
+  top: 9px;
+} 
+#socialMedia2{
+width: 20px;
+height: 20px;
+padding-left: 660px;
+position: relative;
+bottom: 59px;
+}
+#socialMedia3{
+width: 20px;
+height: 20px;
+padding-left: 620px;
+position: relative;
+top: 113px; 
+}
+#socialMedia4{
+width: 20px;
+height: 20px;
+padding-left: 700px;
+position: relative;
+bottom: 115px; 
+}   
+
+/* Mobile responsiveness */
+@media all and (max-width: 610px) {
+  /* nav{
+    background-color: crimson;
+  } */
+  a{
+    font-size: 66%;
+  }
+  div, p, label, button, input{
+    font-size: 80%;
+  }
+  /* .home{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/IMG_20180609_141518.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+#socialMedia1{
+  width: 20px;
+  height: 20px;
+  margin: 81px;
+  padding-left: 60px;
+} 
+#socialMedia3{
+  width: 20px;
+  height: 20px;
+  padding-left: 180px; 
+  }
+}
+
+
+/*{
+    font-style: italic;
+}                                   /* Astericks symbol affects the entire HTML page.*/     /*This symbol "/*" is used for comments*/
+
